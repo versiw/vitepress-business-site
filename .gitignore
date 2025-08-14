@@ -1,0 +1,17 @@
+**/node_modules/
+**/cache/
+*.ffs_db
+
+# dts
+
+auto-imports.d.ts
+components.d.ts
+
+# rollup-plugin-visualizer
+
+stats.html
+
+# vitepress
+
+.vitepress/cache/
+.vitepress/dist/
