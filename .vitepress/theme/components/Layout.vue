@@ -12,7 +12,7 @@ const { isDark } = useData()
     :date-locale="dateZhCN"
     preflight-style-disabled
   >
-    <DefaultTheme.Layout> </DefaultTheme.Layout>
+    <DefaultTheme.Layout></DefaultTheme.Layout>
   </NConfigProvider>
   <BackTop />
 </template>

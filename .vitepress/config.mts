@@ -3,7 +3,7 @@ import viteConfig from './vite.config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'XXX文化传媒有限公司',
+  title: '诗维文化传媒',
   description: 'vitepress-business-site desc',
   lang: 'zh-CN',
   srcDir: 'src',
