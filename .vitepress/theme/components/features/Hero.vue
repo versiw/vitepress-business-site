@@ -61,7 +61,6 @@ import LetterPullup from '../InspiraUI/LetterPullup.vue'
 import Confetti from '../InspiraUI/Confetti.vue'
 import MorphingText from '../InspiraUI/MorphingText.vue'
 
-
 const { isDark } = useData()
 const confettiRef = ref(null)
 
