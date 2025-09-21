@@ -1,39 +1,8 @@
-// .vitepress/theme/style/navbar.scss
-
-// 默认状态：导航栏隐藏，不占位（移出屏幕上方）
-.navbar-hidden {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 64px; // 根据你的导航栏实际高度调整，比如 VitePress 默认是 64px
-  transform: translateY(-100%);
-  opacity: 0;
-  visibility: hidden;
-  transition:
-    transform 0.3s ease-in-out,
-    opacity 0.3s ease-in-out,
-    visibility 0.3s ease-in-out;
-  z-index: 50;
-}
-
-// 滚动后状态：导航栏显示出来，占位正常
-.navbar-visible {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 64px;
-  transform: translateY(0);
-  opacity: 1;
-  visibility: visible;
-  transition:
-    transform 0.3s ease-in-out,
-    opacity 0.3s ease-in-out,
-    visibility 0.3s ease-in-out;
-  z-index: 50;
-
-  // 如果你有背景色，可以在这里设置，比如：
-  // background-color: rgba(255, 255, 255, 0.95);
-  // backdrop-filter: blur(10px);
+:root {
+  // 首页取消页面顶部导航栏内边距
+  // @media (min-width: 960px) {
+  //   .VPContent:not(.has-sidebar) {
+  //     padding-top: 0 !important;
+  //   }
+  // }
 }

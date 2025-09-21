@@ -6,8 +6,9 @@
           class="rounded-2xl bg-gradient-to-r from-purple-300 to-orange-300"
           :duration="1000"
         >
-          诗维 </TextHighlight
-        >创意设计
+          诗维
+        </TextHighlight>
+        创意设计
       </div>
     </div>
 
@@ -16,6 +17,7 @@
       class="absolute left-0 top-0 z-0 size-full"
       @mouseenter="fireConfetti"
     />
+
     <MorphingText :texts="texts" :morphTime="2" :coolDownTime="1" />
 
     <!-- 向下箭头 SVG -->
@@ -50,7 +52,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import ParticlesBg from '../InspiraUI/ParticlesBg.vue'
 import VideoText from '../InspiraUI/VideoText.vue'
 import BlurReveal from '../InspiraUI/BlurReveal.vue'
@@ -58,6 +60,7 @@ import TextHighlight from '../InspiraUI/TextHighlight.vue'
 import LetterPullup from '../InspiraUI/LetterPullup.vue'
 import Confetti from '../InspiraUI/Confetti.vue'
 import MorphingText from '../InspiraUI/MorphingText.vue'
+
 
 const { isDark } = useData()
 const confettiRef = ref(null)

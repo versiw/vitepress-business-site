@@ -15,7 +15,7 @@
       <div class="section">
         <Hero />
       </div>
-      <div class="section">
+      <div class="section active">
         <Service />
       </div>
       <div class="section">
@@ -36,7 +36,6 @@ import Hero from '../features/Hero.vue'
 import Partner from '../features/Partner.vue'
 import Service from '../features/Service.vue'
 import About from '../features/About.vue'
-import Company from '../features/Company.vue'
 import Contact from '../features/Contact.vue'
 
 onMounted(async () => {
